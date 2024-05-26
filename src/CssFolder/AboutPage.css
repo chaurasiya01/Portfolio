@@ -1,0 +1,91 @@
+.about{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  gap: 1rem;
+  height: 40rem;
+  border-bottom: 3px solid #1788ae; 
+  border-radius: 50px;
+  min-width: 650px;
+ 
+}
+.about-img img{
+ width: 35vw;
+ min-width: 200px;
+}
+.about-img{
+  padding: 2rem;
+  margin-right: 10rem;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+.headingAbout{
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1788ae ;
+  cursor: pointer;
+}
+.headingAbout span:hover{
+  transition: .5s ease;
+  color: #1788ae ;
+}
+.about-contant h2{
+  text-align: left;
+  line-height: 1.2;
+}
+.about-contant h3{
+  font-size: 2.6rem;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.about-contant h3:hover{
+  color: #1788ae ;
+}
+.about-contant p{
+  display: block;
+  width: 35rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px; 
+  margin-inline-end: 0px;
+  flex-wrap: wrap;
+  unicode-bidi: isolate;
+  max-width: 30rem;
+}
+.about-contant{
+  background: transparent ;
+  padding: 2rem;
+  
+}
+.skills{
+  list-style-type: none;
+  display: flex;
+ gap: .3rem;
+ flex-wrap: wrap;
+font-size: 0.85em;
+max-width: 25rem;;
+}
+.skills li{
+  text-align: center;
+  border: 1px solid #444;
+  padding: 0.4em 0.8em;
+  border-radius: 50px;
+  margin-bottom: 0.5em;
+  margin-top: .5rem;
+  margin-right: 0.1em;
+  /* width: 7rem; */
+  height: 2rem;
+  cursor: pointer;
+  align-items: center;
+}
+.skills li:hover{
+  box-shadow:0 0 .4rem#1788ae; 
+}
+.list-icons{
+  font-size: 1rem;
+  
+
+}
+
